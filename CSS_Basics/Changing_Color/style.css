@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 630px;
+    width: 1350px;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    animation: colors 2s infinite;
+}
+@keyframes colors {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: pink;
+    }
+    50%{
+        background-color: orange;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: blue;
+    }
+}
