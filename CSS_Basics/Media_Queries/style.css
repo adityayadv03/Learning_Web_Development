@@ -1,0 +1,26 @@
+.container{
+    height: 450px;
+    width: 510px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxleft{
+    height: 400px;
+    width: 250px;
+    background-color: rgb(83, 165, 83);
+}
+.boxright{
+    height: 400px;
+    width: 250px;
+    background-color: pink;
+}
+.boxright img{
+    width: 250px;
+}
+@media (max-width:640px) {
+    .container{
+        flex-direction: column;
+    }
+}
