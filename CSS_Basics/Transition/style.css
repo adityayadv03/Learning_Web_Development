@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    transition: width 1s linear,height 1s linear, border-radius 2s linear;
+}
+.box:hover{
+    width: 150px;
+    background-color: orange;
+    height: 150px;
+    border-radius: 50%;
+}
