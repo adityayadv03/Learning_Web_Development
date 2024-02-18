@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid green;
+}
+.Whole{
+    border: 3px solid gray;
+    width: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    display: flex;
+}
+.num{
+    text-decoration: underline;
+    padding: 15px;
+    display: inline;
+}
+button{
+    position: relative;
+    margin-top: 50px;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: rgb(76, 163, 119);
+    color: white;
+    border: 2px solid brown;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-family: Arial;
+}
