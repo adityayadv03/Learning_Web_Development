@@ -27,6 +27,11 @@ function renderLeads(){
     ulEL.innerHTML=listItems
 }
 
+// localStorage.setItem("myName","Aditya Yadav")
+// let name=localStorage.getItem("myName")
+// console.log(name)
+localStorage.clear()
+
 // innerHTML Practice
 // let divEL=document.getElementById("container")
 // function buy(){
