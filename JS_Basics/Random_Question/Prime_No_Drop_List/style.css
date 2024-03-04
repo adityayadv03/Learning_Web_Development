@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: beige;
+}
+#lower{
+    margin: 2px;
+}
+#higher{
+    margin: 2px;
+}
+#submit{
+    margin: 2px;
+    color: brown;
+    background-color: lightblue;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+}
+.special{
+    background-color: black;
+}
