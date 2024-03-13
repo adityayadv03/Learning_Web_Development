@@ -13,14 +13,23 @@ input{
     box-sizing: border-box;
     border: 1px solid #5f9341;
 }
-button{
+#input-btn{
     margin-top: 2px;
     background-color: #5f9341;
     color: white;
     font-weight: bold;
     width: 150px;
     padding: 10px 15px;
-    border: none;
+    border: 1px solid #5f9341;
+}
+#delete-btn{
+    margin-top: 2px;
+    color: #5f9341;
+    background-color: white;
+    font-weight: bolder;
+    width: 150px;
+    padding: 10px 15px;
+    border: 1px solid #5f9341;
 }
 ul{
     margin-top: 30px;

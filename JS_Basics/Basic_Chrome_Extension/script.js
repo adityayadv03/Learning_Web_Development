@@ -1,16 +1,14 @@
-// function saveLead(){
-//     console.log("Button Clicked")
-// }
 
 let myLeads=[]
 const inputEl=document.getElementById("input-el")
 const inputBtn=document.getElementById("input-btn")
 const ulEL=document.getElementById("ul-el")
+const delEL=document.getElementById("delete-btn")
 
-inputBtn.addEventListener("click" , function(){
-    myLeads.push(inputEl.value)
+delEL.addEventListener("dblclick",function clear(){
+    localStorage.clear()
+    myLeads=[]
     renderLeads()
-    inputEl.value=''
 })
 
 function renderLeads(){
@@ -27,15 +25,18 @@ function renderLeads(){
     ulEL.innerHTML=listItems
 }
 
-// localStorage.setItem("myName","Aditya Yadav")
-// let name=localStorage.getItem("myName")
-// console.log(name)
-localStorage.clear()
+inputBtn.addEventListener("click" , function(){
+    myLeads.push(inputEl.value)
+    inputEl.value=''
+    localStorage.setItem("myLeads",JSON.stringify(myLeads))
+    renderLeads()
+    console.log(localStorage.getItem("myLeads"))
+})
 
-// innerHTML Practice
-// let divEL=document.getElementById("container")
-// function buy(){
-//     divEL.innerHTML+="<p>Thank you for buying!</p>"
-// }
-
-// divEL.innerHTML="<button onclick='buy()'>But It!</button>"
+const lead=[]
+lead=JSON.parse(localStorage.getItem("myLeads"))
+console.log(lead)
+if(lead){
+    myLeads=lead
+    renderLeads()
+}
