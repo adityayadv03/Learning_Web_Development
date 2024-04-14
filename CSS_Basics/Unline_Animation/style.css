@@ -26,10 +26,6 @@ footer{
     align-items: center;
     font-size: 40px;
 }
-@keyframes loading {
-    0%{
-    }
-}
 #boxinner{
     width: 200px;
     height: 50px;
