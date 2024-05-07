@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.first_section{
+    background-image: url(./images/developer.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text_con{
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    line-height: 1.5;
+    color: white;
+}
