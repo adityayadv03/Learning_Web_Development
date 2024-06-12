@@ -5,3 +5,7 @@
 (function printHello(){
     console.log("Hello User . ");
 })();
+
+(()=>{ //Another Example of using Arrow function in IIFE
+    console.log("Hey User");
+})();
