@@ -9,3 +9,14 @@
 (()=>{ //Another Example of using Arrow function in IIFE
     console.log("Hey User");
 })();
+
+function get(a){
+    console.log("Id :- "+a);
+}
+(
+    async function getId(){
+        await get(4);
+        console.log("Hey");
+        await get(2);
+    }
+)();
