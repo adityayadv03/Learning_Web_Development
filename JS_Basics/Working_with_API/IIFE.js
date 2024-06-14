@@ -10,12 +10,12 @@
     console.log("Hey User");
 })();
 
-function get(a){
+function get(a){ //Function which will print print the Id for a given input
     console.log("Id :- "+a);
 }
-(
-    async function getId(){
-        await get(4);
+( //IIFE Containing a async function just to demostrate the how iife is used in api call in async function
+    async function getId(){ //async function
+        await get(4); //The code flow will wait till the execution is complete of the function
         console.log("Hey");
         await get(2);
     }
