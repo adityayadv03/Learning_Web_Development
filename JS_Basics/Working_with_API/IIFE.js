@@ -20,3 +20,5 @@ function get(a){ //Function which will print print the Id for a given input
         await get(2);
     }
 )();
+
+//Completed all the basic topic of Js
